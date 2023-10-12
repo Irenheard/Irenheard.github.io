@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<style>
+		body {
+			color: #F4EEE0;
+			background-color: #6D5D6E;
+		}
 		/*This will remove the margin on specified block elements*/
 		.squish {
 			margin-top: 0px;
@@ -13,27 +17,39 @@
 			margin: 0;
 			padding: 0;
 			
-			/*make the navbar black or something idfk*/
+			/*this fixed my h1 issue*/
+			overflow: hidden;
+			
+			/*background colour*/
+			background-color: #393646;	
+			
 			
 		}
 		
 		.liNavbarItem {	
 			/*This makes the navbar items on one line*/
-			display: inline;
-			padding: 16px;
-			
-			background-color: #663F46;
-			color: white;
-			
+			float: left;
+
 		} 
+		
+		.liEhNavbarItem {
+			display: block;
+			padding: 16px;
+			color: #F4EEE0;
+
+		}
+		
+		.liEhNavbarItem:hover {
+			background-color: #4F4557;
+		}
 		
 	</style>
 	<body>
 		<!--NAVBAR-->
-		<!--made by following the w3 school tutorial-->
+		<!--made by following the w3school tutorial-->
 		<ul class="ulNavbar">
-			<li class="liNavbarItem"><a href="index.html">Resume</a></li>
-			<li class="liNavbarItem"><a href="highlightReel.html">Highlight Reel</a></li>
+			<li class="liNavbarItem"><a class="liEhNavbarItem" href="index.html">Resume</a></li>
+			<li class="liNavbarItem"><a class="liEhNavbarItem" href="highlightReel.html">Highlight Reel</a></li>
 		</ul>
 	
 		<h1>Eofor Irenheard</h1>
