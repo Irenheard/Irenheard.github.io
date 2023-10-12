@@ -1,10 +1,46 @@
 <!DOCTYPE html>
 <html>
+	<style>
+		/*This will remove the margin on specified block elements*/
+		.squish {
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+		/*made by following the w3 school tutorial*/
+		.ulNavbar {
+			/*This removes the bullet points, margins, and padding*/
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			
+			/*make the navbar black or something idfk*/
+			
+		}
+		
+		.liNavbarItem {	
+			/*This makes the navbar items on one line*/
+			display: inline;
+			padding: 16px;
+			
+			background-color: #663F46;
+			color: white;
+			
+		} 
+		
+	</style>
 	<body>
+		<!--NAVBAR-->
+		<!--made by following the w3 school tutorial-->
+		<ul class="ulNavbar">
+			<li class="liNavbarItem"><a href="test.html">Resume</a></li>
+			<li class="liNavbarItem"><a href="highlightReel.html">Highlight Reel</a></li>
+		</ul>
 	
 		<h1>Eofor Irenheard</h1>
 		<h2>(416) 867 - 5309 | sleepy_villager@ac.net</h2>
+		
 		<h3>Highlights</h3>
+		
 			<ul>
 				<li>Currently enrolled in the Ecosystem Management Technician program at Fleming College’s, School of Environmental & Natural Resource Sciences</li>
 				<li>Displayed a high accuracy in the visual and audio identification of selected Ontario mammalian, avian, reptilian and amphibian fauna</li>
@@ -15,16 +51,17 @@
 			</ul> 
 			
 		<h3>Education</h3>
-		<p><b>GIS Applications Specialist</b> September 2023 - Present</p>
-		<p><i>Sir Sandford Fleming College</i></p>
-		<p><u>Applied Skills</u></p>
+		
+		<p class="squish"><b>GIS Applications Specialist</b> September 2023 - Present</p>
+		<p class="squish"><i>Sir Sandford Fleming College</i></p>
+		<p class="squish"><u>Applied Skills</u></p>
 		<ul>
-			<li>Pronounces GIS as jiss</li>
+			<li>Pronounces "GIS" as "jiss"</li>
 		</ul>
 		
-		<p><b>Ecosystem Management</b> September 2021 - April 2023</p>
-		<p><i>Sir Sandford Fleming College</i></p>
-		<p><u>Applied Field Skills</u></p>
+		<p class="squish"><b>Ecosystem Management</b> September 2021 - April 2023</p>
+		<p class="squish"><i>Sir Sandford Fleming College</i></p>
+		<p class="squish"><u>Applied Field Skills</u></p>
 			<ul>
 				<li>Uses Geographic Information Systems (GIS) software to create maps using both raster and vector data models</li>
 				<li>Proficiently collects and records data and observations using a standardized protocol</li>
@@ -34,22 +71,23 @@
 				<li>Naturally takes field notes that are specific, complete, accurate, and neat</li>
 			</ul> 
 			
-		<p><b>Artist Blacksmith</b> September 2019 - January 2020</p>
-		<p><i>Haliburton School of Art and Design</i></p>
+		<p class="squish"><b>Artist Blacksmith</b> September 2019 - January 2020</p>
+		<p class="squish"><i>Haliburton School of Art and Design</i></p>
 		
 		<h3>Volunteer Experience</h3>
-		<p><b>Wilderness Resource Conservation Technician</b> April 2023</p>
-		<p><i>Askari Wilderness Conservation Programme, Gravelotte, LP</i></p>
+		
+		<p class="squish"><b>Wilderness Resource Conservation Technician</b> April 2023</p>
+		<p class="squish"><i>Askari Wilderness Conservation Programme, Gravelotte, LP</i></p>
 			<ul>
 				<li>Completed a variety of daily tasks, such as vehicle maintenance, electric fence monitoring, writing reports, and preparing monitoring equipment</li>
 				<li>Managed vegetation by through the use of pruning techniques and controlling invasive plant species</li>
-				<li>Ate a <a href = "https://www.atlasobscura.com/foods/mopane-worms-caterpillars" target = "_blank"> mopane worm</a> (yum!)</li>
+				<li>Ate a <a href="https://www.atlasobscura.com/foods/mopane-worms-caterpillars" target="_blank"> mopane worm</a> (yum!)</li>
 			</ul>
 			
 		<h3>Professional Development</h3>
-		<p>Standard First Aid - CPR Level C - AED 2023</p>
-		<p>Valid G Drivers License 2022</p>
-		<p>Smart Serve 2018</p>
+		<p class="squish">Standard First Aid - CPR Level C - AED 2023</p>
+		<p class="squish">Valid G Drivers License 2022</p>
+		<p class="squish">Smart Serve 2018</p>
 		
 		<h3>Personal Skills and Attributes</h3>
 		<ul>
@@ -58,8 +96,8 @@
 			<li>Computer literate; able to learn how to use most computer programs and search the internet for information</li>
 		</ul>
 		
-		<h3>Interests</h3>
-		<p>Camping, hiking, bouldering, birdwatching, looking at maps, astronomy, and reading</p> 
+		<h3 class="squish">Interests</h3>
+		<p class="squish">Camping, hiking, climbing, birdwatching, looking at maps, astronomy, and reading</p> 
 		
 	</body>
 </html>
