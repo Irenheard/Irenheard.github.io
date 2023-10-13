@@ -3,13 +3,16 @@
 	<style>
 		body {
 			color: #F4EEE0;
+			font-family: "IM Fell DW Pica", Georgia, serif;
 			background-color: #6D5D6E;
 		}
+		
 		/*This will remove the margin on specified block elements*/
 		.squish {
 			margin-top: 0px;
 			margin-bottom: 0px;
 		}
+		
 		/*made by following the w3 school tutorial*/
 		.ulNavbar {
 			/*This removes the bullet points, margins, and padding*/
@@ -22,8 +25,6 @@
 			
 			/*background colour*/
 			background-color: #393646;	
-			
-			
 		}
 		
 		.liNavbarItem {	
@@ -43,16 +44,25 @@
 			background-color: #4F4557;
 		}
 		
+		.jobLocation {
+			margin-top: 0px;
+			margin-bottom: 0px;
+			font-style: italic;
+		}
+		
 	</style>
+	
 	<head>
 		<title>So no head?</title>
 	</head>
+	
 	<body>
 		<!--NAVBAR-->
 		<!--made by following the w3school tutorial-->
 		<ul class="ulNavbar">
-			<li class="liNavbarItem"><a class="liEhNavbarItem" href="index.html">Resume</a></li>
-			<li class="liNavbarItem"><a class="liEhNavbarItem" href="highlightReel.html">Highlight Reel</a></li>
+			<li class="liNavbarItem"><a class="liEhNavbarItem" href="index.html">resume</a></li>
+			<li class="liNavbarItem"><a class="liEhNavbarItem" href="highlightReel.html">highlight reel</a></li>
+			<li class="liNavbarItem"><a class="liEhNavbarItem" href="https://github.com/Irenheard/Irenheard.github.io">github</a></li>
 		</ul>
 	
 		<h1>Eofor Irenheard</h1>
@@ -71,18 +81,17 @@
 			
 		<h3>Education</h3>
 		
-		<div class="squish">
-		<p><b>GIS Applications Specialist</b> September 2023 - Present</p>
-		<p><i>Sir Sandford Fleming College</i></p>
-		<p><u>Applied Skills</u></p>
-		</div>
+		<!--Hi Shawn, I spoke to you about the use of the b tag and you said it was a case where it's borderline acceptable-->
+		<p class="squish"><b>GIS Applications Specialist</b> September 2023 - Present</p>
+		<p class="jobLocation">Sir Sandford Fleming College</p>
+		<p class="squish">Applied Skills:</p>
 		<ul>
 			<li>Pronounces "GIS" as "jiss"</li>
 		</ul>
 		
 		<p class="squish"><b>Ecosystem Management</b> September 2021 - April 2023</p>
-		<p class="squish"><i>Sir Sandford Fleming College</i></p>
-		<p class="squish"><u>Applied Field Skills</u></p>
+		<p class="jobLocation">Sir Sandford Fleming College</p>
+		<p class="squish">Applied Field Skills:</p>
 			<ul>
 				<li>Uses Geographic Information Systems (GIS) software to create maps using both raster and vector data models</li>
 				<li>Proficiently collects and records data and observations using a standardized protocol</li>
@@ -98,7 +107,7 @@
 		<h3>Volunteer Experience</h3>
 		
 		<p class="squish"><b>Wilderness Resource Conservation Technician</b> April 2023</p>
-		<p class="squish"><i>Askari Wilderness Conservation Programme, Gravelotte, LP</i></p>
+		<p class="jobLocation">Askari Wilderness Conservation Programme, Gravelotte, LP</p>
 			<ul>
 				<li>Completed a variety of daily tasks, such as vehicle maintenance, electric fence monitoring, writing reports, and preparing monitoring equipment</li>
 				<li>Managed vegetation by through the use of pruning techniques and controlling invasive plant species</li>
@@ -121,4 +130,5 @@
 		<p class="squish">Camping, hiking, climbing, birdwatching, looking at maps, astronomy, and reading</p> 
 		
 	</body>
+	
 </html>
