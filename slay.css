@@ -1,0 +1,49 @@
+		body {
+			color: #F4EEE0;
+			font-family: "IM Fell DW Pica", Georgia, serif;
+			background-color: #6D5D6E;
+		}
+		
+		/*This will remove the margin on specified block elements*/
+		.squish {
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+		
+		/*the navbar was made by following the w3 school tutorial*/
+		.ulNavbar {
+			/*This removes the bullet points, margins, and padding*/
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			
+			/*this fixed my h1 issue*/
+			overflow: hidden;
+			
+			/*background colour*/
+			background-color: #393646;	
+		}
+		
+		.liNavbarItem {	
+			/*This makes the navbar items on one line*/
+			float: left;
+
+		} 
+		
+		.liEhNavbarItem {
+			display: block;
+			padding: 16px;
+			color: #F4EEE0;
+			text-decoration: none;
+
+		}
+		
+		.liEhNavbarItem:hover {
+			background-color: #464036;
+		}
+		
+		.jobLocation {
+			margin-top: 0px;
+			margin-bottom: 0px;
+			font-style: italic;
+		}
