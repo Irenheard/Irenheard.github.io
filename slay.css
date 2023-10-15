@@ -1,49 +1,60 @@
-		body {
-			color: #F4EEE0;
-			font-family: "IM Fell DW Pica", Georgia, serif;
-			background-color: #6D5D6E;
-		}
-		
-		/*This will remove the margin on specified block elements*/
-		.squish {
-			margin-top: 0px;
-			margin-bottom: 0px;
-		}
-		
-		/*the navbar was made by following the w3 school tutorial*/
-		.ulNavbar {
-			/*This removes the bullet points, margins, and padding*/
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-			
-			/*this fixed my h1 issue*/
-			overflow: hidden;
-			
-			/*background colour*/
-			background-color: #393646;	
-		}
-		
-		.liNavbarItem {	
-			/*This makes the navbar items on one line*/
-			float: left;
+body {
+	color: #F4EEE0;
+	font-family: "IM Fell DW Pica", Georgia, serif;
+	background-color: #6D5D6E;
+}
 
-		} 
-		
-		.liEhNavbarItem {
-			display: block;
-			padding: 16px;
-			color: #F4EEE0;
-			text-decoration: none;
+/*This will remove the margin on specified block elements*/
+.squish {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
 
-		}
-		
-		.liEhNavbarItem:hover {
-			background-color: #464036;
-		}
-		
-		.jobLocation {
-			margin-top: 0px;
-			margin-bottom: 0px;
-			font-style: italic;
-		}
+/*the navbar was made by following the w3 school tutorial*/
+.ulNavbar {
+	/*This removes the bullet points, margins, and padding*/
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+	/*this fixed my h1 issue*/
+	overflow: hidden;
+	
+	/*background colour*/
+	background-color: #393646;	
+}
+
+.liNavbarItem {	
+	/*This makes the navbar items on one line*/
+	float: left;
+
+} 
+
+/*targets the links within the navbar*/
+.liEhNavbarItem {
+	display: block;
+	padding: 16px;
+	color: #F4EEE0;
+	/*removes the hyperlink look to the navbar items*/
+	text-decoration: none;
+
+}
+
+/*when I hover over an item on the navbar it will be a different colour*/
+.liEhNavbarItem:hover {
+	background-color: #464036;
+}
+
+.jobLocation {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-style: italic;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.imageDesc {
+	text-align: none;
+}
