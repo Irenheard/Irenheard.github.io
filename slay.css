@@ -54,3 +54,12 @@ body {
 .floatLeft {
 	float: left;
 }
+
+td {
+	text-align: center;
+	padding: 4px;
+}
+
+tr {
+	padding: 32px;
+}
