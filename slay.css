@@ -1,7 +1,16 @@
 body {
 	color: #F4EEE0;
+	/*this is the font used on Taylor Swifts "folklore" and "evermore" albums so it may look familiar*/
 	font-family: "IM Fell DW Pica", Georgia, serif;
 	background-color: #6D5D6E;
+}
+
+/*hx selector requirement*/
+h1 {
+	border-bottom: 3px solid #393646;
+	font-weight: bold;
+	font-size: 2em;
+	display: block;
 }
 
 /*This will remove the margin on specified block elements*/
@@ -10,24 +19,23 @@ body {
 	margin-bottom: 0px;
 }
 
-/*the navbar was made by following the w3 school tutorial*/
+/*the navbar was made by following the w3 school tutorial, what a handy textbook!*/
 .ulNavbar {
-	/*This removes the bullet points, margins, and padding*/
+	/*removes the bullet points, margins, and padding*/
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	
-	/*this fixed my h1 issue*/
+	/*fixes my h1 issue, taken from w3 schools*/
 	overflow: hidden;
 	
 	/*background colour*/
 	background-color: #393646;	
 }
 
+/*This makes the navbar items on one line*/
 .liNavbarItem {	
-	/*This makes the navbar items on one line*/
 	float: left;
-
 } 
 
 /*targets the links within the navbar*/
@@ -45,17 +53,35 @@ body {
 	background-color: #464036;
 }
 
+/*italicizes and removes the margins on the job locations in the resume*/
 .jobLocation {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	font-style: italic;
 }
 
+/*This... floats items to the left*/
 .floatLeft {
 	float: left;
 }
 
+/*Table css*/
+table {
+	width: 360px;
+	border: 3px solid #393646;
+	/*makes the border one single line*/
+	border-collapse: collapse;
+}
+
+
+th {
+	border: 3px solid #393646;
+	height: 50px;
+	width: 200px;
+}
+
 td {
+	border: 3px solid #393646;
 	text-align: center;
 	padding: 4px;
 }
@@ -63,3 +89,16 @@ td {
 tr {
 	padding: 32px;
 }
+
+/*specifying the dimensions of an image*/
+#rectangle {
+	width: 640px;
+	height: 360px;
+}
+
+/*specifying the dimensions of my square images*/
+.square {
+	width: 360px;
+	height: 360px;
+}
+
